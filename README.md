@@ -28,7 +28,7 @@ Construído sob o manto de uma arquitetura cliente-servidor para esconder aquela
 - 📋 **Cópia Rápida de Markdown:** Achou a refatoração incrível? Clique no botão "Copiar Markdown" e leve a documentação crua direto para o seu repositório. O botão até pisca um ✅ para você ter certeza de que funcionou.
 - 🌈 **Bordas Animadas (RGB):** Porque um código limpo não é nada se a interface não tiver um gradiente animado brilhando em loop infinito nas bordas da sua tela. O front-end chora de orgulho (mas apenas no dark mode).
 - 🌗 **Tema Claro/Escuro:** Respeitamos sua retina. O *Dark Mode* já vem ligado por padrão para manter sua sanidade, mas se você é do tipo que prefere programar de luz acesa, o *Light Mode* está a um clique.
-- ℹ️ **Onboarding e FAQ Integrados:** Modais estilosos para quando você esquecer como se cola um texto em uma caixa.
+- ℹ️ **Onboarding e FAQ Integrados:** Modais estilosos para caso bata aquela amnésia de como se cola um texto em uma caixa. Ou apenas se você quiser ler algumas perguntas e respostas (sim, eu faço as perguntas e eu as respondo).
 
 | Funcionalidade | O que faz na prática |
 | --- | --- |
