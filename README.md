@@ -26,7 +26,7 @@ Construído sob o manto de uma arquitetura cliente-servidor para esconder aquela
 - 🧑‍💻 **Análise Implacável:** Colete seus bugs de lógica ou de sintaxe, jogue no reSolve e receba uma análise cirúrgica com a alternativa mais moderna possível.
 - 🧠 **Seletor de Cérebros (Modelos de IA):** Porque o OpenRouter tem fila. Alterne dinamicamente entre GPT OSS 120B (a lenda), Gemini 2.0 Flash Lite, Llama 3.3 ou Qwen 2.5 Coder. Se um modelo estiver de mau humor (erro 429), apenas escolha outro.
 - 📋 **Cópia Rápida de Markdown:** Achou a refatoração incrível? Clique no botão "Copiar Markdown" e leve a documentação crua direto para o seu repositório. O botão até pisca um ✅ para você ter certeza de que funcionou.
-- 🌈 **Bordas Animadas (RGB):** Porque um código limpo não é nada se a interface não tiver um gradiente animado brilhando em loop infinito nas bordas da sua tela. O front-end chora de orgulho.
+- 🌈 **Bordas Animadas (RGB):** Porque um código limpo não é nada se a interface não tiver um gradiente animado brilhando em loop infinito nas bordas da sua tela. O front-end chora de orgulho (mas apenas no dark mode).
 - 🌗 **Tema Claro/Escuro:** Respeitamos sua retina. O *Dark Mode* já vem ligado por padrão para manter sua sanidade, mas se você é do tipo que prefere programar de luz acesa, o *Light Mode* está a um clique.
 - ℹ️ **Onboarding e FAQ Integrados:** Modais estilosos para quando você esquecer como se cola um texto em uma caixa.
 
