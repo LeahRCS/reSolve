@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reSolve - Revisora de Código</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="dark-mode">
+    <header>
+        <div class="logo">
+            <span class="rgb-text">reSolve</span>
+        </div>
+        <div class="theme-toggle">
+            <label class="switch">
+                <input type="checkbox" id="themeSwitch" checked>
+                <span class="slider round"></span>
+            </label>
+            <span id="themeLabel">Dark Mode</span>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Revisão de Código <span class="rgb-text">Inteligente</span></h1>
+            <p>Insira seu código abaixo para que nossa IA aponte erros e sugira alternativas para melhorar e corrigir o
+                seu código.</p>
+        </section>
+
+        <section class="auditor-container">
+            <div class="input-area">
+                <label for="codeInput">Código Fonte:</label>
+                <div class="textarea-wrapper">
+                    <textarea id="codeInput" placeholder="Cole seu código aqui..."></textarea>
+                </div>
+
+                <div class="model-selector">
+                    <label for="modelSelect">Escolha um Modelo:</label>
+                    <select id="modelSelect" class="rgb-border">
+                        <option value="openai/gpt-oss-120b:free" selected>GPT OSS (A Escolha Padrão)</option>
+                        <option value="google/gemma-4-31b-it:free">Google Gemma 4 (Rápido e Estável)</option>
+                        <option value="meta-llama/llama-3.3-70b-instruct:free">Llama 3.3 (Modelo Poderoso)</option>
+                        <option value="qwen/qwen3-next-80b-a3b-instruct:free">Qwen 3 Next (Focado em Raciocínio)
+                        </option>
+                    </select>
+                </div>
+
+                <button id="analyzeBtn" class="primary-btn rgb-glow">Analisar Código</button>
+            </div>
+
+            <div id="outputArea" class="output-area hidden">
+                <div class="output-header">
+                    <label>Relatório de Revisão:</label>
+                    <button id="copyBtn" class="copy-btn hidden">📋 Copiar Markdown</button>
+                </div>
+                <div id="loading" class="hidden">
+                    <div class="spinner"></div>
+                    <p class="rgb-text">Consultando a IA...</p>
+                </div>
+                <div id="reportOutput" class="report-box rgb-border hidden"></div>
+            </div>
+        </section>
+    </main>
+
+    <div class="fab-container">
+        <button id="fabBtn" class="fab rgb-glow">i</button>
+        <div id="fabMenu" class="fab-menu hidden">
+            <button id="learnBtn">Aprender a usar</button>
+            <button id="faqBtn">FAQ</button>
+        </div>
+    </div>
+
+    <!-- Modal "Aprender a usar" -->
+    <div id="learnModal" class="modal hidden">
+        <div class="modal-content rgb-border">
+            <span class="close-modal">&times;</span>
+            <h2 class="rgb-text">Como usar a reSolve</h2>
+            <p><strong>1.</strong> Cole seu código na área de texto.</p>
+            <p><strong>2.</strong> Clique em "Analisar Código".</p>
+            <p><strong>3.</strong> Aguarde o relatório detalhado do Revisor escolhido.</p>
+        </div>
+    </div>
+
+    <!-- Modal FAQ -->
+    <div id="faqModal" class="modal hidden">
+        <div class="modal-content rgb-border">
+            <span class="close-modal">&times;</span>
+            <h2 class="rgb-text">FAQ - Perguntas Frequentes</h2>
+            <div class="faq-item">
+                <h3>Por que a reSolve foi criada?</h3>
+                <p>A plataforma reSolve nasceu da necessidade de ter uma revisora de código rigorosa, que não apenas
+                    aponta erros, mas sugere melhorias eficientes, utilizando boas práticas e filosofias de
+                    desenvolvimento limpo.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Por que a IA Revisora sempre avisa para verificar suas respostas?</h3>
+                <p>Porque a IA Revisora é alimentada por uma Inteligência Artificial (LLM). Apesar de avançada, a IA
+                    pode cometer erros de lógica ou "alucinar" funções que não existem. O julgamento humano sempre deve
+                    ser a palavra final antes de aplicar um código em produção.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Quem criou a reSolve?</h3>
+                <p>Criado com 🫶 por Leah R.C.S. <br> Conheça mais: <a href="https://github.com/LeahRCS" target="_blank"
+                        class="rgb-text">github.com/LeahRCS</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
