@@ -105,5 +105,4 @@ MIT — Refatore, quebre, copie e cole.
   <br />
   <em>Criado com muito 🫶 (e café) por <a href="https://github.com/LeahRCS">Leah R.C.S.</a></em>
   <br /><br />
-  <sub>Nenhum bug foi fisicamente ferido no desenvolvimento desta plataforma. Eles foram apenas expostos à vergonha pública no output.</sub>
 </div>
