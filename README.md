@@ -75,7 +75,7 @@ O clássico comando que baixa metade da internet para a sua pasta `node_modules`
 npm install
 ```
 
-### 3. A Chave dos Deuses (.env)
+### 3. A Chave do Báu do Tesouro (.env)
 A aplicação precisa da sua chave do OpenRouter para respirar.
 1. Crie um arquivo `.env` na raiz do projeto.
 2. Adicione a sua chave no seguinte formato:
